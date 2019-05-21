@@ -4,6 +4,9 @@ Zigbee device driver for Homey allowing more agressive polling
 ## Usage:
 
 Step 1: Adding the library into your project  
+```bash
+npm install homey-agressive-zigbee
+```
 Step 2: Add a coordinator to your app
 ```javascript
 // in app.js
