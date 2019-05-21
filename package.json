@@ -1,7 +1,11 @@
 {
-  "name": "agressive-zigbee",
-  "version": "1.0.0",
+  "name": "homey-agressive-zigbee",
+  "version": "1.0.1",
   "description": "Zigbee device driver for Homey allowing more agressive polling",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/copycat1024/homey-agressive-zigbee.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
