@@ -29,14 +29,14 @@ class MyDevice extends ZigBeeDevice {
 
 ```
 Step 4: Implement the device driver the same way you did with the homey-meshdriver package, exept that you can also implement onTrigger to catch changes in the capabilities
-```
+```javascript
 // in device.js
 const { ZigBeeDevice } = require('homey-agressive-zigbee')
 
 class MyDevice extends ZigBeeDevice {
   ...
-	onTrigger(capabilityId, value) {
-		// your code here
-	}
+  onTrigger(capabilityId, value) {
+    // your code here
+  }
 }
 ```
