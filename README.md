@@ -3,9 +3,9 @@ Zigbee device driver for Homey allowing more agressive polling
 
 ## Usage:
 
-Step 1: Adding the library into your project
+Step 1: Adding the library into your project  
 Step 2: Add a coordinator to your app
-```
+```javascript
 // in app.js
 const { Coordinator } = require('homey-agressive-zigbee')
 
@@ -19,7 +19,7 @@ class MyApp extends Homey.App {
 }
 ```
 Step 3: Create device by inheriting from ZigBeeDevice
-```
+```javascript
 // in device.js
 const { ZigBeeDevice } = require('homey-agressive-zigbee')
 
