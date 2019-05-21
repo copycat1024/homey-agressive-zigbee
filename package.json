@@ -1,6 +1,6 @@
 {
   "name": "homey-agressive-zigbee",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zigbee device driver for Homey allowing more agressive polling",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
   "dependencies": {
     "homey-meshdriver": "1.2.32"
   },
+  "keywords": ["homey", "smarthome", "zigbee"],
   "author": "iola",
   "license": "MIT"
 }
