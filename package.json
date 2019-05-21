@@ -1,0 +1,14 @@
+{
+  "name": "agressive-zigbee",
+  "version": "1.0.0",
+  "description": "Zigbee device driver for Homey allowing more agressive polling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "homey-meshdriver": "1.2.32"
+  },
+  "author": "iola",
+  "license": "MIT"
+}
